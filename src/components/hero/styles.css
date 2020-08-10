@@ -1,0 +1,23 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+.hero{
+    background : #5e46b9;
+    height: 380px;
+
+}
+
+.hero__text{
+    color: #fff;
+    fontweight: bold;
+    text-transform:  uppercase;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+}

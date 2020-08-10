@@ -1,0 +1,10 @@
+.mark{
+    height : 10px;
+    width : 100%;
+    background-color: rgb(83, 206, 104);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+    margin-bottom:  0px !important;
+    padding-bottom: 0px;
+}
