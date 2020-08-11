@@ -6,7 +6,7 @@ function Start(props) {
         <div className="container text-center mt-5 pt-3">
 
             <img src={ai} alt="Ai" className="icon" />
-            <p className="font-weight-bold">Try *Get me some news* </p>
+            <p className="font-weight-bold h4">Try *Get me some news* </p>
 
             
         </div>

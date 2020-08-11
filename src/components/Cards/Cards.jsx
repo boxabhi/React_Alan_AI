@@ -5,8 +5,9 @@ import Grid from '@material-ui/core/Grid';
 
 export default function Cards(props) {
   
-   
-    const newsCards = props.news.articles
+  
+    const newsCards = props.news
+    const current = props.current
   if(newsCards !== undefined){
   return (
       <div className="container">
@@ -17,10 +18,9 @@ export default function Cards(props) {
         
     {
         newsCards.map((newsCard , index) => {
-
            return ( 
             <Grid item xs={12} lg={4} className="mt-2" key={index}>
-           <NewsCard   news={newsCard}  />
+           <NewsCard   news={newsCard} current={current} index={index}  />
            </Grid>
            )
         })
